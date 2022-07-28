@@ -6,9 +6,12 @@
 	<title></title>
 </head>
 <body>
+	{% for i in login_session %}
+	
+	<li>{{i}}: {{login_session[i]}} </li>
+    {% endfor %}
+	
 
-<!-- Display the variables from the login session here!
- -->
 
 </body>
 </html>
